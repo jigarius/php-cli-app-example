@@ -1,0 +1,20 @@
+#!/usr/bin/env php
+<?php
+
+/**
+ * @file
+ * A shell executable version of hello.php.
+ *
+ * The first line, i.e. the shebang, determines which application is used to
+ * execute the script. Thus, executing this file from the command-line runs
+ * PHP. The rest of the code is the same as hello.php.
+ *
+ * An important thing to remember is the need to grant exec permissions:
+ * chmod +x ./hello
+ *
+ * Without this permission, the shell won't allow this script to be executed
+ * as a stand-alone script.
+ */
+
+require __DIR__ . DIRECTORY_SEPARATOR . 'hello.php';
+
