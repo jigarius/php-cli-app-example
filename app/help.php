@@ -33,7 +33,7 @@ $opts = getopt(
   // o:: is optional
   // nv do not take values
   'r:o::nv',
-  ['name'],
+  ['name::'],
 );
 var_dump($opts);
 
