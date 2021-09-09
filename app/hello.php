@@ -6,7 +6,7 @@
  *
  * @example
  * ./hello Jerry
- * ./hello Jerry --lang=es -v
+ * ./hello --lang=es -v Jerry
  */
 
 if (php_sapi_name() !== 'cli') exit;

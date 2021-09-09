@@ -10,8 +10,8 @@ Demonstrates the use of PHP elements that help in CLI app development.
 
 - `$argc`
 - `$argv`
-- `getopt`
-- `exit`
+- `getopt()`
+- `exit()`
 
 ### hello.php
 
@@ -30,8 +30,9 @@ This project uses Docker Compose. Here's how you see the code in action.
   - `docker compose start`
 - Run a shell in the PHP container with `make ssh`
 - Now you can use the scripts as follows:
-  - `php ./help.php`
-  - `./hello Kitty`
+  - `php ./args.php`
+  - `php ./getopt.php`
+  - `./hello --lang=es Kitty`
 
 ## References
 
